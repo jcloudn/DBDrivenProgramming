@@ -34,7 +34,6 @@
 
 <h1>Find a customer</h1>
 
-<p><span class="error">* required field.</span></p>
     <p><span class="error">* required field.</span></p>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       Last Name: <input type="text" name="lastName">
