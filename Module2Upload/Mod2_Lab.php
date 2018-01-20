@@ -33,27 +33,18 @@
       ?>
 
 <h1>Find a customer</h1>
-<<<<<<< HEAD
+
 <p><span class="error">* required field.</span></p>
-=======
     <p><span class="error">* required field.</span></p>
->>>>>>> 7ffa4e5d8c0a18a7cac7b9fe115e0449decd4c30
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       Last Name: <input type="text" name="lastName">
       <span class="error">* <?php echo $nameErr;?></span>
       <br><br>
       <input type="submit" name="submit" value="Submit">
     </form>
-
-<<<<<<< HEAD
-	<?php
-	include 'config.php';
-	include 'opendb.php';
-=======
 <?php
 include 'config.php';
 include 'opendb.php';
->>>>>>> 7ffa4e5d8c0a18a7cac7b9fe115e0449decd4c30
 
   $lastname = (isset($_POST['lastName'])    ? $_POST['lastName']   : '');
 
@@ -74,14 +65,9 @@ include 'opendb.php';
   mysqli_close($conn);
   ?>
 
-<<<<<<< HEAD
-	<div data-role="footer" data-theme="b">
-	  <h4>MARVEL ADVENTURES &copy; 2018</h4>
-	</div>
-=======
   <div data-role="footer" data-theme="b">
     <h4>MARVEL ADVENTURES &copy; 2018</h4>
   </div>
->>>>>>> 7ffa4e5d8c0a18a7cac7b9fe115e0449decd4c30
+
 </body>
 </html>
