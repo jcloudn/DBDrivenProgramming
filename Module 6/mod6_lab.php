@@ -16,7 +16,7 @@
 </div>
 
 <?php
-// Positive numbers:
+
 echo "There was a farmer who had a dog and Bingo was his name - oh!"."<br>";
 echo "B-I-NGO, B-I-NGO, B-I-NGO and BINGO was his name - oh!"."<br>";
 echo "There was a farmer who had a dog and Bingo was his name - oh!"."<br>";
